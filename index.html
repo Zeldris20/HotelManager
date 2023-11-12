@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color and Radius Changing Box</title>
+
+    <style>
+        :root {
+            --color: #2E343F;
+            --position: 0;
+            --radius: 0;
+        }
+
+        body {
+            background-color: #04052E;
+            color: var(--color);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .inputContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .inputContainer label {
+            margin-bottom: 5px;
+        }
+
+        .scroll {
+            position: relative;
+            padding: 10px 20px;
+        }
+
+        .box {
+            transform: translateX(var(--position));
+            background: var(--color);
+            border-radius: var(--radius);
+            width: 100px;
+            height: 100px;
+            transition: width 2s, background 2s, border-radius 2s;
+        }
+
+        /* Style for the sliders */
+        input[type="range"] {
+            width: 200px;
+            margin-bottom: 10px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1>Color and Radius Changing Box</h1>
+    </header>
+
+    <main>
+        <div class="inputContainer">
+            <label for="colorSlider">Color:</label>
+            <input type="range" id="colorSlider" min="0" max="255" value="127">
+            <span id="currentColorValue">127</span>
+
+            <label for="radiusSlider">Radius:</label>
+            <input type="range" id="radiusSlider" min="0" max="50" value="0">
+            <span id="currentRadiusValue">0</span>
+        </div>
+
+        <div class="scroll">
+            <div class="box" id="colorBox"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright © 2023 My Website</p>
+    </footer>
+
+    <script>
+        // JavaScript to handle slider value change and update color and radius
+        const colorSlider = document.getElementById('colorSlider');
+        const currentColorValue = document.getElementById('currentColorValue');
+        const radiusSlider = document.getElementById('radiusSlider');
+        const currentRadiusValue = document.getElementById('currentRadiusValue');
+        const colorBox = document.getElementById('colorBox');
+
+        colorSlider.addEventListener('input', updateBox);
+        radiusSlider.addEventListener('input', updateBox);
+
+        function updateBox() {
+            const colorValue = colorSlider.value;
+            const radiusValue = radiusSlider.value;
+            currentColorValue.textContent = colorValue;
+            currentRadiusValue.textContent = radiusValue;
+            
+            const calculatedColor = `rgb(${colorValue}, ${127 - colorValue}, ${255 - colorValue})`;
+            colorBox.style.backgroundColor = calculatedColor;
+            colorBox.style.borderRadius = radiusValue + 'px';
+        }
+    </script>
+
+</body>
+</html>
