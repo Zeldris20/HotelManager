@@ -1,0 +1,61 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "RandomLanguageApp/1.0.0": {
+        "dependencies": {
+          "TranslatorService": "3.0.11"
+        },
+        "runtime": {
+          "RandomLanguageApp.dll": {}
+        }
+      },
+      "System.Net.Http.Json/5.0.0": {},
+      "System.Text.Json/5.0.0": {},
+      "TranslatorService/3.0.11": {
+        "dependencies": {
+          "System.Net.Http.Json": "5.0.0",
+          "System.Text.Json": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/TranslatorService.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.11.64526"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RandomLanguageApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Net.Http.Json/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3CPSQpCzEmI9o+1G79TnPCjF40omCdnoXj2Rg76BDwGj5+LZnFPjV+t35eedlvl+uthmholk/XXxXTYgJWSexw==",
+      "path": "system.net.http.json/5.0.0",
+      "hashPath": "system.net.http.json.5.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+luxMQNZ2WqeffBU7Ml6njIvxc8169NW2oU+ygNudXQGZiarjE7DOtN7bILiQjTZjkmwwRZGTtLzmdrSI/Ustw==",
+      "path": "system.text.json/5.0.0",
+      "hashPath": "system.text.json.5.0.0.nupkg.sha512"
+    },
+    "TranslatorService/3.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4eocBanfuxR3GrL/WpfaYbv0EB9NCsFb1bXahsbFGRBMEIAPmK/Ub9PZh/1ALL/poTRXOKSxavy4i9H5tbowww==",
+      "path": "translatorservice/3.0.11",
+      "hashPath": "translatorservice.3.0.11.nupkg.sha512"
+    }
+  }
+}

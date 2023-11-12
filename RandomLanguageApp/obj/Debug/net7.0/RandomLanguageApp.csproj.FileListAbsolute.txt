@@ -1,0 +1,17 @@
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\RandomLanguageApp\bin\Debug\net7.0\RandomLanguageApp.exe
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\RandomLanguageApp\bin\Debug\net7.0\RandomLanguageApp.deps.json
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\RandomLanguageApp\bin\Debug\net7.0\RandomLanguageApp.runtimeconfig.json
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\RandomLanguageApp\bin\Debug\net7.0\RandomLanguageApp.dll
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\RandomLanguageApp\bin\Debug\net7.0\RandomLanguageApp.pdb
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\RandomLanguageApp\bin\Debug\net7.0\TranslatorService.dll
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\RandomLanguageApp\obj\Debug\net7.0\RandomLanguageApp.csproj.AssemblyReference.cache
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\RandomLanguageApp\obj\Debug\net7.0\RandomLanguageApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\RandomLanguageApp\obj\Debug\net7.0\RandomLanguageApp.AssemblyInfoInputs.cache
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\RandomLanguageApp\obj\Debug\net7.0\RandomLanguageApp.AssemblyInfo.cs
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\RandomLanguageApp\obj\Debug\net7.0\RandomLanguageApp.csproj.CoreCompileInputs.cache
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\RandomLanguageApp\obj\Debug\net7.0\RandomLanguageApp.csproj.CopyComplete
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\RandomLanguageApp\obj\Debug\net7.0\RandomLanguageApp.dll
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\RandomLanguageApp\obj\Debug\net7.0\refint\RandomLanguageApp.dll
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\RandomLanguageApp\obj\Debug\net7.0\RandomLanguageApp.pdb
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\RandomLanguageApp\obj\Debug\net7.0\RandomLanguageApp.genruntimeconfig.cache
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\RandomLanguageApp\obj\Debug\net7.0\ref\RandomLanguageApp.dll

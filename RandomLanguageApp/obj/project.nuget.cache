@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "U7a3ozZCls/CbBsi1LuRZwdZLFo+mpnbx2SdFoEGRvf2vPoDMyKG/3EAiQcJpV7dRWjkuGoygnk90OKcX0VmOg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ZeldrisOW\\Documents\\git\\TaskScheduler\\MyWebApp\\JSWebsite\\RandomLanguageApp\\RandomLanguageApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ZeldrisOW\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\ZeldrisOW\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\ZeldrisOW\\.nuget\\packages\\translatorservice\\3.0.11\\translatorservice.3.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
