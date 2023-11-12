@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color and Radius Changing Box</title>
+    <title>Color, Radius, and Rotation Changing Box</title>
 
     <style>
         :root {
             --color: #2E343F;
             --position: 0;
             --radius: 0;
+            --rotation: 0deg;
         }
 
         body {
@@ -37,12 +38,12 @@
         }
 
         .box {
-            transform: translateX(var(--position));
+            transform: translateX(var(--position)) rotate(var(--rotation));
             background: var(--color);
             border-radius: var(--radius);
             width: 100px;
             height: 100px;
-            transition: width 2s, background 2s, border-radius 2s;
+            transition: width 2s, background 2s, border-radius 2s, transform 2s;
         }
 
         /* Style for the sliders */
@@ -56,7 +57,7 @@
 <body>
 
     <header>
-        <h1>Color and Radius Changing Box</h1>
+        <h1>Color, Radius, and Rotation Changing Box</h1>
     </header>
 
     <main>
@@ -68,6 +69,10 @@
             <label for="radiusSlider">Radius:</label>
             <input type="range" id="radiusSlider" min="0" max="50" value="0">
             <span id="currentRadiusValue">0</span>
+
+            <label for="rotationSlider">Rotation:</label>
+            <input type="range" id="rotationSlider" min="0" max="360" value="0">
+            <span id="currentRotationValue">0</span>
         </div>
 
         <div class="scroll">
@@ -80,25 +85,32 @@
     </footer>
 
     <script>
-        // JavaScript to handle slider value change and update color and radius
+        // JavaScript to handle slider value change and update color, radius, and rotation
         const colorSlider = document.getElementById('colorSlider');
         const currentColorValue = document.getElementById('currentColorValue');
         const radiusSlider = document.getElementById('radiusSlider');
         const currentRadiusValue = document.getElementById('currentRadiusValue');
+        const rotationSlider = document.getElementById('rotationSlider');
+        const currentRotationValue = document.getElementById('currentRotationValue');
         const colorBox = document.getElementById('colorBox');
 
         colorSlider.addEventListener('input', updateBox);
         radiusSlider.addEventListener('input', updateBox);
+        rotationSlider.addEventListener('input', updateBox);
 
         function updateBox() {
             const colorValue = colorSlider.value;
             const radiusValue = radiusSlider.value;
+            const rotationValue = rotationSlider.value;
+
             currentColorValue.textContent = colorValue;
             currentRadiusValue.textContent = radiusValue;
-            
+            currentRotationValue.textContent = rotationValue;
+
             const calculatedColor = `rgb(${colorValue}, ${127 - colorValue}, ${255 - colorValue})`;
             colorBox.style.backgroundColor = calculatedColor;
             colorBox.style.borderRadius = radiusValue + 'px';
+            colorBox.style.transform = `translateX(var(--position)) rotate(${rotationValue}deg)`;
         }
     </script>
 
