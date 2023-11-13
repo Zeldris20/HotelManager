@@ -1,0 +1,14 @@
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\HotelManager\bin\Debug\net7.0\HotelManager.exe
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\HotelManager\bin\Debug\net7.0\HotelManager.deps.json
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\HotelManager\bin\Debug\net7.0\HotelManager.runtimeconfig.json
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\HotelManager\bin\Debug\net7.0\HotelManager.dll
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\HotelManager\bin\Debug\net7.0\HotelManager.pdb
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\HotelManager\obj\Debug\net7.0\HotelManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\HotelManager\obj\Debug\net7.0\HotelManager.AssemblyInfoInputs.cache
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\HotelManager\obj\Debug\net7.0\HotelManager.AssemblyInfo.cs
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\HotelManager\obj\Debug\net7.0\HotelManager.csproj.CoreCompileInputs.cache
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\HotelManager\obj\Debug\net7.0\HotelManager.dll
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\HotelManager\obj\Debug\net7.0\refint\HotelManager.dll
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\HotelManager\obj\Debug\net7.0\HotelManager.pdb
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\HotelManager\obj\Debug\net7.0\HotelManager.genruntimeconfig.cache
+C:\Users\ZeldrisOW\Documents\git\TaskScheduler\MyWebApp\JSWebsite\HotelManager\obj\Debug\net7.0\ref\HotelManager.dll
