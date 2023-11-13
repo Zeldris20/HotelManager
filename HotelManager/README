@@ -1,1 +1,3 @@
 This Hotel Manager Application basically was a project I had to do for my C# course this time im using dynamic arrays instead and saves me hours of time 
+Choose which room with the numbers allocated, each room is priced according to how luxury the room is
+after selecting you enter how many nights and the program does all the math and outputs your answer 
